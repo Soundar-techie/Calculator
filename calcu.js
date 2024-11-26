@@ -30,7 +30,3 @@ function sumof(){
 function off(){
     alert("Exit For Your Self")
 }
-
-function color-change(){
-    
-}

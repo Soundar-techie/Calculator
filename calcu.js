@@ -30,3 +30,22 @@ function sumof(){
 function off(){
     alert("Exit For Your Self")
 }
+
+// function colorChange(){
+//      document.body.style.backgroundColor = "red";
+// }
+function colorChange2(){
+    
+    let name = document.querySelector("button");
+    name.innerText = "color3";
+
+    if(name.innerText ="blue"){
+        
+        document.body.style.backgroundColor = "black"
+    }
+    else {
+       document.body.style.backgroundColor = "red";
+    }
+//      document.body.style.backgroundColor = "green";
+// //      document.body.classList.add(".calcu-body")
+}

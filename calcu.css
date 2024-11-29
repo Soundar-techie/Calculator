@@ -48,13 +48,24 @@ p{
 #color-change{
     float: right;
     border-radius: 10px;
-    background-color: aliceblue;
+    height: 30px;
+    width: 50px;
+    background-color: rgb(30, 109, 177);
+    color: blue;
     font-size: small;
 }
+#color-change:hover{
+    background-color: aqua;
+}
+
 .red-background{
+    float:left;
     background-color: black;
     height: 30px;
     width: 50px;
-    color: brown;
+    color: rgb(160, 152, 198);
     font-size: small;
+}
+.red-background:hover{
+    background-color: aqua;
 }

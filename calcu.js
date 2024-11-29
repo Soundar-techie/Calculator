@@ -31,21 +31,20 @@ function off(){
     alert("Exit For Your Self")
 }
 
-// function colorChange(){
-//      document.body.style.backgroundColor = "red";
-// }
+function colorChange(){
+     document.body.style.backgroundColor = "blue";
+}
 function colorChange2(){
     
-    let name = document.querySelector("button");
+    let name = document.querySelector("button"); 
     name.innerText = "color3";
 
-    if(name.innerText ="blue"){
+    if(document.body.style.backgroundColor= "black"){
         
-        document.body.style.backgroundColor = "black"
+        name.innerText ="blue"
     }
     else {
        document.body.style.backgroundColor = "red";
     }
-//      document.body.style.backgroundColor = "green";
-// //      document.body.classList.add(".calcu-body")
+
 }
